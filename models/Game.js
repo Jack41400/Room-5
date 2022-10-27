@@ -11,7 +11,7 @@ Game.init(
       primaryKey: true,
       autoIncrement: true,
     },
-    game_name: {
+    game_title: {
       type: DataTypes.STRING,
       allowNull: false,
     },
@@ -19,10 +19,10 @@ Game.init(
       type: DataTypes.STRING,
       allowNull: false,
     },
-    singlePlayer: {
+    is_single_player: {
       type: DataTypes.BOOLEAN,
     },
-    multiPlayer: {
+    is_multi_player: {
       type: DataTypes.BOOLEAN,
     }
   },
