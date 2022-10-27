@@ -19,6 +19,12 @@ Game.init(
       type: DataTypes.STRING,
       allowNull: false,
     },
+    singlePlayer: {
+      type: DataTypes.BOOLEAN,
+    },
+    multiPlayer: {
+      type: DataTypes.BOOLEAN,
+    }
   },
   {
     sequelize,
