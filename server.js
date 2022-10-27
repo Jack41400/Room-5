@@ -5,7 +5,6 @@ const exphbs = require('express-handlebars');
 const dotenv = require('dotenv');
 const routes = require('./controllers');
 const sequelize = require('./config/connection');
-const dotenv = require('dotenv');
 const postRouter = require('./controllers/api/postRoutes');
 
 
