@@ -1,7 +1,7 @@
 -- ONLY FOR SEEDING GAMES TABLE IN GAMERS_DB --
-USE gamers_db;
+/* USE gamers_db;
 
-INSERT INTO games (gameTitle, summary, onlineStatus, singlePlayer)
+INSERT INTO game (gameTitle, summary, onlineStatus, singlePlayer)
 VALUES ("Minecraft", "", true, true),
        ("Red Dead Redemption 2", "", true, true),
        ("Fortnite", "", true, true),
@@ -107,4 +107,4 @@ INSERT INTO users (firstName, lastName, userName, passwordHash, email)
 VALUES 
     ("Jack", "Phillips", "Jack41400", 12345, "jack@email.com"),
 	("Ayoub", "Bility", "bilityA", 12345, "Ayoub@email.com"),
-    ("Isain", "Ibarra", "Isain1", 12345, "isain@email.com");
+    ("Isain", "Ibarra", "Isain1", 12345, "isain@email.com"); */

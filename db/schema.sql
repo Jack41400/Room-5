@@ -1,12 +1,12 @@
 -- DROP DATABASE
--- DROP DATABASE IF EXISTS gamers_db;
+DROP DATABASE IF EXISTS gamers_db;
 
 -- CREATE DATABASE
 CREATE DATABASE gamers_db;
 
 USE gamers_db;
 
-CREATE TABLE games (
+/* CREATE TABLE games (
     id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
     gameTitle VARCHAR(64) NOT NULL,
     summary VARCHAR(255),
@@ -31,4 +31,4 @@ CREATE TABLE game_posts (
     FOREIGN KEY (userID) REFERENCES users(id),
     messageContent VARCHAR(255) NOT NULL,
     createdAT timestamp DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
-);
+); */
