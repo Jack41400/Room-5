@@ -10,6 +10,7 @@ Game.init(
       allowNull: false,
       primaryKey: true,
       autoIncrement: true,
+      readonly: false,
     },
     game_title: {
       type: DataTypes.STRING,
@@ -28,7 +29,7 @@ Game.init(
   },
   {
     sequelize,
-    freezeTableName: true,
+    freezeTableName: false,
     underscored: true,
     modelName: 'game',
   }

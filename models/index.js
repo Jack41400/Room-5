@@ -2,13 +2,17 @@ const User = require('./User');
 const Game = require('./Game');
 const Post = require('./Post')
 
-User.hasMany(Post, {
+User.hasMany({
     foreignKey: 'message',
 })
 
 User.hasMany(Game, {
     foreignKey: 'message',
-})
+});
+
+User.hasMany(Post, {
+    foreignKey: 'user_post',
+});
 
 Post.belongsTo(User,{
     foreignKey: 'message',
